@@ -1,24 +1,14 @@
 {
   "name": "rails-keymapper",
   "main": "./lib/rails-keymapper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A very simple package which inserts ERB snippets.",
-  "keywords": ["rails","keybindings","keymapper"],
+  "keywords": [
+    "rails",
+    "keybindings",
+    "keymapper"
+  ],
   "activationCommands": {
-    "atom-text-editor": "rails-keymapper:insert-erb-quotes",
-    "atom-text-editor": "rails-keymapper:insert-erb-quotes",
-    "atom-text-editor": "rails-keymapper:insert-image-tag",
-    "atom-text-editor": "rails-keymapper:insert-link-tag",
-    "atom-text-editor": "rails-keymapper:insert-button-tag",
-    "atom-text-editor": "rails-keymapper:insert-form-erb",
-    "atom-text-editor": "rails-keymapper:insert-formtag-erb",
-    "atom-text-editor": "rails-keymapper:insert-label-erb",
-    "atom-text-editor": "rails-keymapper:insert-checkbox-tag-erb",
-    "atom-text-editor": "rails-keymapper:insert-textarea-tag-erb",
-    "atom-text-editor": "rails-keymapper:insert-radio-tag-erb",
-    "atom-text-editor": "rails-keymapper:insert-text-tag-erb",
-    "atom-text-editor": "rails-keymapper:insert-password-tag-erb",
-    "atom-text-editor": "rails-keymapper:insert-hidden-tag-erb",
     "atom-text-editor": "rails-keymapper:insert-if-erb"
   },
   "repository": "https://github.com/SauronTheGreat/rails-keymapper",
@@ -26,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
