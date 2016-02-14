@@ -1,0 +1,89 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Rails ERB Tags'
+      'submenu': [
+        {
+          'label': 'Insert blank ERB quotes'
+          'command': 'rails-keymapper:insert-erb-quotes'
+        },
+
+        {
+          'label': 'Insert Image tag'
+          'command': 'rails-keymapper:insert-image-tag'
+        },
+
+        {
+          'label': 'Insert Link tag'
+          'command': 'rails-keymapper:insert-link-tag'
+        },
+
+        {
+          'label': 'Insert Button tag'
+          'command': 'rails-keymapper:insert-button-tag'
+        },
+
+        {
+          'label': 'Insert Form for object'
+          'command': 'rails-keymapper:insert-form-erb'
+        },
+
+        {
+          'label': 'Insert Generic Form'
+          'command': 'rails-keymapper:insert-formtag-erb'
+        },
+
+        {
+          'label': 'Insert Generic label tag'
+          'command': 'rails-keymapper:insert-label-erb'
+        },
+        {
+          'label': 'Insert Generic checkbox tag'
+          'command': 'rails-keymapper:insert-checkbox-tag-erb'
+        },
+        {
+          'label': 'Insert Generic textarea tag'
+          'command': 'rails-keymapper:insert-textarea-tag-erb'
+        },
+
+        {
+          'label': 'Insert Generic radio tag'
+          'command': 'rails-keymapper:insert-radio-tag-erb'
+        },
+
+        {
+          'label': 'Insert Generic text tag'
+          'command': 'rails-keymapper:insert-text-tag-erb'
+        },
+
+        {
+          'label': 'Insert Generic password tag'
+          'command': 'rails-keymapper:insert-password-tag-erb'
+        },
+
+        {
+          'label': 'Insert Generic hidden tag'
+          'command': 'rails-keymapper:insert-hidden-tag-erb'
+        }
+
+        {
+          'label': 'Insert if statement'
+          'command': 'rails-keymapper:insert-if-erb'
+        }
+
+
+
+
+
+
+
+
+
+
+      ]
+    ]
+  }
+]
