@@ -2,7 +2,7 @@
   "name": "rails-keymapper",
   "main": "./lib/rails-keymapper",
   "version": "0.0.1",
-  "description": "A very simple package which addd some key bindings for rails.",
+  "description": "A very simple package which inserts ERB snippets.",
   "keywords": ["rails","keybindings","keymapper"],
   "activationCommands": {
     "atom-text-editor": "rails-keymapper:insert-erb-quotes",
@@ -21,7 +21,7 @@
     "atom-text-editor": "rails-keymapper:insert-hidden-tag-erb",
     "atom-text-editor": "rails-keymapper:insert-if-erb"
   },
-  "repository": "https://github.com/atom/rails-keymapper",
+  "repository": "https://github.com/SauronTheGreat/rails-keymapper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
